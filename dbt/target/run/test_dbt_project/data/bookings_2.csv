@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "DEMO_DBT"."PUBLIC"."BOOKINGS_2";
+    -- dbt seed --
+    
+            insert into DEMO_DBT.Public.bookings_2 (id, booking_reference, hotel, booking_date, cost) values
+            (%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s)
+        
+
+;
+  

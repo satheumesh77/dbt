@@ -1,0 +1,14 @@
+test_profile:
+  outputs:
+    dev:
+      account: sj61195.ca-central-1.aws
+      database: DEMO_DBT
+      password: Thisissnowflake@123
+      role: DBT_DEV_ROLE
+      schema: Public
+      threads: 200
+      type: snowflake
+      user: DBT_USER
+      warehouse: DBT_DEV_WH
+  target: dev
+  
